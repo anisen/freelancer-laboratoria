@@ -3,22 +3,47 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Freelancer</title>
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	<!-- Enlaza aquí tu CSS común y de tu proyecto -->
 <link rel="stylesheet" type="text/css" href="css/main.css">
 <link rel="stylesheet" type="text/css" href="css/common.css">
 </head>
 <body>
 	<!-- Escribe tu código aquí -->
- <header class="menu">
- 	<div class="menu-fijo">
- 		<h1 class="h1-menufijo">START BOOTSTRAP</h1>
+ <header class="container menu-principal">
+ 	<div class="row contenedor-menu">
+ 		<h1 class="col-7 h1-menu">START BOOTSTRAP</h1>
  		<ul>
- 			<li class="li-menufijo">Portfolio</li>
- 			<li class="li-menufijo">About</li>
- 			<li class="li-menufijo">Contact</li>
+ 			<a href="#" class="col-1 uppercase a-primeraparte">Portfolio</a>
+ 			<a href="#" class="col-1 uppercase a-primeraparte">About</a>
+ 			<a href="#" class="col-1 uppercase a-primeraparte">Contact</a>
  		</ul>
  	</div>
  </header>
+
+ <section id="primera-parte">
+ 	<div class="celeste-primeraparte">
+ 		<img src="assets/images/profile.png" class="profile">
+ 		<h1 class="uppercase h1-primeraparte">start bootstrap</h1>
+ 		<div class="estrella">-------#--------</div>
+        <h2 class="h2-primeraparte">Web Developer - Graphic Artist - User Experience Designer</h2>
+ 	</div>
+ </section>
+ <section id="segunda-parte">
+ 	<div class="blanco-segundaparte">
+ 		<h1 class="uppercase h1-segundaparte">portfolio</h1>
+ 		<div class="imagenes-segundaparte">
+ 			<img src="assets/images/portfolio/cabin.png" class="col-4">
+ 			<img src="assets/images/portfolio/cake.png" class="col-4">
+ 			<img src="assets/images/portfolio/circus.png" class="col-4">
+ 		</div>
+ 		<div class="imagenes-segundaparte">
+ 			<img src="assets/images/portfolio/game.png" class="col-4">
+ 			<img src="assets/images/portfolio/safe.png" class="col-4">
+ 			<img src="assets/images/portfolio/submarine.png" class="col-4">
+ 		</div>
+ 	</div>
+ </section>
 	<!-- Enlaza aquí tu archivo JS -->
 	<script type="text/javascript" src="js/app.js"></script>
 </body>
