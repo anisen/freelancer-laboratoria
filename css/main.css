@@ -105,6 +105,7 @@
 }
 .tema-parrafos{
 	font-size: 18px;
+	text-align: left;
 }
 .boton-terceraparte{
 	margin-left: 520px;
@@ -152,13 +153,42 @@
 	background-color: #2c3e50;
 	height: 250px;
 	color: white;
+	font-size: 19px;
+	text-align: center;
+	padding-top: 50px;
 }
 .primeralinea{
 	text-align: center;
 	font-size: 16px;
 }
 .h1-ultimaparte{
-	margin-left: 30px;
+	margin-left: 80px;
+}
+.parrafo-ultimaparte{
+	margin-left:100px; 
+}
+.circulo{
+	width:50px;
+	height:50px;
+	border:3px solid white;
+	border-radius: 50%;
+	display: inline-block;
+	text-align: center;
+    font-size: 25px;
+    padding: 8px;
+    margin: 4px;
+}
+.azul-ultimaparte a{
+	text-decoration: none;
+	color: #18bc9c;
+}
+.azul-oscuro{
+	background-color: #233140;
+	height: 60px;
+	text-align: center;
+}
+.azul-oscuro h1{
+	font-size: 18px;
 }
 /* ESTRELLAS */
 .fa-minus{
